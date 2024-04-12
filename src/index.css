@@ -1,0 +1,163 @@
+@font-face {
+  font-family: "fortnite" ;
+  src: url(../public/american-textc.ttf);
+}
+
+  .brand-logo{
+    font-family: "fortnite";
+    font-size: 80px;
+    margin-top: -5px;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "fortnite";
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+  }
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  main {
+    padding-top: 20px;
+    flex: 1 1 auto;
+  }
+  .page-footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  nav {
+    box-shadow: none;
+  }
+  
+  .items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: transparent;
+    box-shadow: 0 2px 2px 0 rgb(139, 2, 2), 0 3px 1px -2px rgb(139, 2, 2), 0 1px 5px 0 rgb(139, 2, 2);
+  }
+  
+  .grey-text.text-darken-4 {
+    color: rgb(139, 2, 2) !important;
+    
+  }
+  
+  .card .card-content {
+    flex-grow: 1;
+    border: rgb(139, 2, 2);
+    border-width: 2px;
+    color: rgb(107, 0, 0);
+    
+  }
+  
+  .card .card-title {
+    font-size: 18px;
+    color: rgb(139, 2, 2);
+    font-size: 25px;
+  }
+  
+  .btn, .btn-large, .btn-small, .btn-flat {
+    padding: 0 10px;
+    border-radius: 10px;
+    background-color: rgb(139, 2, 2);
+    font-family: "fortnite";
+    font-size: 18px;
+  }
+  
+  .cart-icon {
+    position: fixed;
+    z-index: 100;
+    right: 10px;
+    top: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(139, 2, 2);
+  }
+  
+  .teal.lighten-1 {
+    background-color: rgb(211, 0, 0) !important;
+  }
+  
+  .cart-modal {
+    position: fixed;
+    z-index: 50;
+    min-width: 50%;
+    max-width: 100%;
+    max-height: 80vh;
+    overflow-y: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000000;
+    padding: 10px;
+    box-shadow: 0 2px 4px 0 rgb(199, 0, 0), 0 2px 3px -2px rgb(202, 1, 1), 0 2px 5px 0 rgb(194, 0, 0);
+  }
+  
+  .cart-modal-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: rgb(139, 2, 2);
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .cart-item-delete {
+    cursor: pointer;
+    color: rgb(139, 2, 2);
+  }
+  
+  .show-alert {
+    position: fixed;
+    z-index: 100;
+    right: 60px;
+    top: 10px;
+    background-color: rgb(68, 0, 0);
+    color: #fff;
+    padding: 10px;
+    font-family: "fortnite";
+  }
+  
+  .btn:hover, .btn-large:hover, .btn-small:hover {
+    background-color: rgb(99, 0, 0);
+  }
+  
+  .btn:focus, .btn-large:focus, .btn-small:focus {
+    background-color: rgb(99, 0, 0);
+  }
+  
+  table.striped>tbody>tr:nth-child(odd) {
+    background-color: rgb(255, 47, 47);
+    color: #fff;
+    font-family: "fortnite";
+  }
+  th{
+    color: #fff;
+  }
+  .progress {
+    background-color: brown;
+    color: red;
+  }
+  
+  .page-footer{
+    margin-top: 60px;
+  }
+  tr{
+    color: #fff;
+  }
